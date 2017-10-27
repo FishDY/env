@@ -6,8 +6,7 @@ tmux source-file ~/.tmux.conf
 
 
 inputrc for ctrl P and ctrl N
-
 cp .inputrc ~ && bind -f ~/.inputrc
 
-~/.bashrc: add -------
-alias dk="sudo docker"
+alias dk and git branch show
+cp .bashrc ~
