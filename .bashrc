@@ -121,6 +121,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias dk='sudo docker'
-alias lab='ssh -p 2011 dy@localhost'
-alias media='ssh medialab@172.16.5.125'
