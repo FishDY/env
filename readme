@@ -12,6 +12,7 @@ FOR BASH:
  add git branchc
  cp .bashrc ~
 
+chsh -s /bin/zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 FOR ZSH, add to .zshrc:
