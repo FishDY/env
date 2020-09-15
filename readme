@@ -31,3 +31,5 @@ For oh-my-zsh fonts on MAC
  git clone https://github.com/powerline/fonts.git
  cd fonts
  ./install.sh
+FOR ubuntu check
+ echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"
