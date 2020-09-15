@@ -12,6 +12,8 @@ FOR BASH:
  add git branchc
  cp .bashrc ~
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 FOR ZSH, add to .zshrc:
  ZSH_THEME="crunch"
  DEFAULT_USER=$USER
