@@ -13,5 +13,21 @@ FOR BASH:
  cp .bashrc ~
 
 FOR ZSH, add to .zshrc:
+ ZSH_THEME="crunch"
+ DEFAULT_USER=$USER
+ plugins=(git)
  bindkey "^p" history-beginning-search-backward
  bindkey "^n" history-beginning-search-forward
+Highlight zsh commands
+ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+History search
+ cd ~/.oh-my-zsh/custom/plugins
+ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+ add line to .zshrc:plugins=(zsh-autosuggestions)
+FOR tmux display
+ export TERM='xterm-256color'
+For oh-my-zsh fonts on MAC
+ git clone https://github.com/powerline/fonts.git
+ cd fonts
+ ./install.sh
